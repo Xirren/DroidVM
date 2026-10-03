@@ -1283,8 +1283,8 @@
     <string name="hugepage_proc_acquire_stop">إيقاف الحيازة</string>
     <string name="hugepage_proc_acquire_full">اكتملت الحيازة: تم الوصول إلى %1$s</string>
     <string name="hugepage_proc_acquire_partial">توقفت الحيازة: تم تحصيل %1$s من أصل %2$s (لا يمكن للنظام ترحيل المزيد من الصفحات حاليًا)</string>
-    <string name="hugepage_proc_acquire_full_cma">اكتملت الحيازة: التجمع %1$s، مع CMA بقيمة %2$s</string>
-    <string name="hugepage_proc_acquire_partial_cma">توقفت الحيازة: التجمع %1$s من أصل %2$s، مع CMA بقيمة %3$s من أصل %4$s (لا يمكن للنظام ترحيل المزيد من الصفحات حاليًا)</string>
+    <string name="hugepage_proc_acquire_full_cma">اكتملت الحيازة: ذاكرة VM %1$s، مع CMA بقيمة %2$s</string>
+    <string name="hugepage_proc_acquire_partial_cma">توقفت الحيازة: ذاكرة VM %1$s من أصل %2$s، مع CMA بقيمة %3$s من أصل %4$s (لا يمكن للنظام ترحيل المزيد من الصفحات حاليًا)</string>
     <string name="hugepage_proc_acquire_userspace">الوحدة بحاجة لذاكرة إضافية؛ جارٍ طلب المساعدة من مساحة المستخدم (Userspace)...</string>
     <string name="hugepage_acquire_pages_title">حيازة الصفحات الضخمة</string>
     <string name="hugepage_pool_size">ذاكرة مخصصة للأجهزة الافتراضية (VM)</string>
@@ -1324,7 +1324,7 @@
 
     <!-- v10 CMA reservoir -->
     <string name="hugepage_enable_cma">تفعيل تقنية CMA</string>
-    <string name="hugepage_enable_cma_sub">احجز جزءًا من الذاكرة لتستخدمه التطبيقات الأخرى عبر CMA؛ ويمكن استعادته بسرعة كذاكرة مخصصة للأجهزة الافتراضية</string>
+    <string name="hugepage_enable_cma_sub">احجز جزءًا من الذاكرة عبر CMA؛ يمكن للتطبيقات الأخرى استخدامه، ويمكن استعادته بسرعة كذاكرة مخصصة للأجهزة الافتراضية</string>
     <string name="hugepage_cma_pool_size">إجمالي حجم CMA (بما يشمل ذاكرة VM المخصصة)</string>
     <string name="hugepage_cma_not_supported">الوحدة غير محملة أو لا تدعم ميزة CMA (تتطلب الإصدار v10 وما بعده)</string>
     <string name="hugepage_cma_unavailable_title">ذاكرة CMA غير متاحة</string>

@@ -1277,8 +1277,8 @@
     <string name="hugepage_proc_acquire_stop">Stop acquiring</string>
     <string name="hugepage_proc_acquire_full">Acquire complete: reached %1$s</string>
     <string name="hugepage_proc_acquire_partial">Acquire stopped: got %1$s of %2$s (system can\'t migrate more right now)</string>
-    <string name="hugepage_proc_acquire_full_cma">Acquire complete: pool %1$s, with CMA %2$s</string>
-    <string name="hugepage_proc_acquire_partial_cma">Acquire stopped: pool %1$s of %2$s, with CMA %3$s of %4$s (system can\'t migrate more right now)</string>
+    <string name="hugepage_proc_acquire_full_cma">Acquire complete: VM memory %1$s, with CMA %2$s</string>
+    <string name="hugepage_proc_acquire_partial_cma">Acquire stopped: VM memory %1$s of %2$s, with CMA %3$s of %4$s (system can\'t migrate more right now)</string>
     <string name="hugepage_proc_acquire_userspace">Module short; trying userspace assist...</string>
     <string name="hugepage_acquire_pages_title">Acquire huge pages</string>
     <string name="hugepage_pool_size">VM Dedicated Memory</string>
@@ -1318,7 +1318,7 @@
 
     <!-- v10 CMA reservoir -->
     <string name="hugepage_enable_cma">Enable CMA</string>
-    <string name="hugepage_enable_cma_sub">Reserve part of memory; other apps can still use it via CMA, and it can be quickly reclaimed as VM-dedicated</string>
+    <string name="hugepage_enable_cma_sub">Reserve part of memory via CMA; other apps can still use it, and it can be quickly reclaimed as VM-dedicated</string>
     <string name="hugepage_cma_pool_size">Total CMA Size (incl. VM-dedicated)</string>
     <string name="hugepage_cma_not_supported">Module not loaded or has no CMA support (v10+)</string>
     <string name="hugepage_cma_unavailable_title">CMA unavailable</string>

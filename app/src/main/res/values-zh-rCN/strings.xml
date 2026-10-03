@@ -1202,7 +1202,7 @@
     <string name="hugepage_crash_dismissed">崩溃警告已消除</string>
     <string name="hugepage_stat_state">状态</string>
     <string name="hugepage_stat_total_served">已分配次数</string>
-    <string name="hugepage_stat_total_refilled">已回收次数</string>
+    <string name="hugepage_stat_total_refilled">已获取次数</string>
     <string name="hugepage_stat_active_vms">活动虚拟机</string>
     <string name="hugepage_stat_pool_available">可用: %1$d (%2$s)</string>
     <string name="hugepage_proc_avail_detail">可转换CMA %1$s、不可转换CMA %2$s</string>
@@ -1221,7 +1221,7 @@
     <string name="hugepage_adv_save_failed">保存失败</string>
     <string name="hugepage_manual_refill">回收</string>
     <string name="hugepage_refill_triggered">回收已触发</string>
-    <string name="hugepage_refill_failed">触发回收失败</string>
+    <string name="hugepage_refill_failed">触发获取失败</string>
     <string name="hugepage_pool_size">VM 专用内存</string>
     <string name="hugepage_pool_size_saved">VM 专用内存已保存（重启后生效）</string>
     <string name="hugepage_pool_size_failed">保存 VM 专用内存失败</string>
@@ -1283,8 +1283,8 @@
     <string name="hugepage_proc_acquire_stop">停止获取</string>
     <string name="hugepage_proc_acquire_full">获取完成:已达成 %1$s</string>
     <string name="hugepage_proc_acquire_partial">获取结束:达成 %1$s / 目标 %2$s(系统目前无法再凑出更多)</string>
-    <string name="hugepage_proc_acquire_full_cma">获取完成:池 %1$s、含 CMA %2$s</string>
-    <string name="hugepage_proc_acquire_partial_cma">获取停止:池 %1$s / %2$s,含 CMA %3$s / %4$s(系统目前无法再搬移)</string>
+    <string name="hugepage_proc_acquire_full_cma">获取完成:VM 专用内存 %1$s、含 CMA %2$s</string>
+    <string name="hugepage_proc_acquire_partial_cma">获取停止:VM 专用内存 %1$s / %2$s,含 CMA %3$s / %4$s(系统目前无法再搬移)</string>
     <string name="hugepage_proc_acquire_running">获取大页中…</string>
     <string name="hugepage_proc_acquire_userspace">模块不足,尝试 userspace 协助…</string>
     <string name="hugepage_proc_anon">占用:%1$d 页 (%2$s)</string>
@@ -1294,7 +1294,7 @@
 
     <!-- v10 CMA 池 -->
     <string name="hugepage_enable_cma">启用 CMA</string>
-    <string name="hugepage_enable_cma_sub">预约部分内存，其他 APP 仍可通过 CMA 使用，亦可快捷回收为 VM 专用</string>
+    <string name="hugepage_enable_cma_sub">通过 CMA 预约部分内存，其他 APP 仍可使用，亦可快捷回收为 VM 专用</string>
     <string name="hugepage_cma_pool_size">总 CMA 大小（含 VM 专用）</string>
     <string name="hugepage_cma_not_supported">模块未加载或不支持 CMA(需 v10+)</string>
     <string name="hugepage_cma_unavailable_title">CMA 不可用</string>
